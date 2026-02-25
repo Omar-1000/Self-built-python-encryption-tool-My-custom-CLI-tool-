@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omarcrypto"
+version = "0.1.0"
+description = "Custom Python encryption tool (Rail Fence + Caesar + key-based deterministic shuffle)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Omar Ayesh"}]
+keywords = ["cryptography", "railfence", "cipher", "python", "cli", "encryption"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Education",
+  "Topic :: Security :: Cryptography",
+]
+
+[project.scripts]
+omarcrypto = "omarcrypto.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

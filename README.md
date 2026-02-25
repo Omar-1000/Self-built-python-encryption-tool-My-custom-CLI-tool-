@@ -16,7 +16,7 @@ It implements an enhanced classical Rail Fence approach combined with:
 ## Installation (from GitHub)
 
 ```bash
-pip install git+https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
+pip install git+https://github.com/Omar-1000/Self-built-python-encryption-tool-My-custom-CLI-tool-.git
 ```
 
 ---
